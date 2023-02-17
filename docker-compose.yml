@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ksqldb-cli:
+    build:
+      context: ./
+    image: r19750927/ttyd
+    container_name: ttyd
+    ports:
+      - 7681:7681
+    #command: bash
+    #tty: true
+
